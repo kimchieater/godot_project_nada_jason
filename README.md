@@ -1,5 +1,7 @@
 # godot_project_nada_jason
- awdadawd
+
+
+Duty
 
 1: find assets
 2: create system design
