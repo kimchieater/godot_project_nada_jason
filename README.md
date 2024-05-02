@@ -75,3 +75,39 @@ and make sure to call move_and_slide() built in function.
 
 You can also change the input map under project setting.
 
+now call player_movement function inside the 
+_physics_process function
+
+
+![alt text](image-12.png)
+
+
+now create a function play_anim(movement)
+
+and get AnimatedSprite2D in a variable.
+
+![alt text](image-13.png)
+
+if movement that's passed in is 1 or true, 
+
+then we're going to play anim.play('run')
+
+else its gonna be anim.play('idle')
+
+![alt text](image-14.png)
+
+also you can create a direction variable in a global scope, 
+
+and if the user pressed left or right, you can put 
+
+anim.flip_h = false or true.
+
+.flip_h method will flip the sprite based on the direction.
+
+
+![alt text](image-15.png)
+
+call play_anim function inside player_movement
+
+![alt text](image-16.png)
+![alt text](image-17.png)
