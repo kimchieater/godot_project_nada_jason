@@ -10,3 +10,8 @@ Duty
 5: basic script (movement, attack, HUD)
 
 Thu 2 May
+
+
+![alt text](image.png)
+
+Once you started the project, It is a good practice to organise your files.
